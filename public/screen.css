@@ -1,9 +1,14 @@
 :root {
   font: 16px / 1 sans-serif;
+  background-color: #009fb7;
 }
 
 html {
   height: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 0.5%;
+  padding: 0% 0% 15% 0%;
 }
 
 body {
@@ -27,18 +32,19 @@ body {
 .nav-bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
   border: #56bcce solid 4px;
   background-color: #56bcce;
   color: white;
   text-decoration: underline;
-  padding: 0% 20% 0% 20%;
+  padding: 0% 10% 0% 10%;
 }
 .kotd {
   border: solid #56bcce 2px;
   color: #223242;
   padding: 5px;
+  height: 80%;
 }
 .divide {
   display: flex;

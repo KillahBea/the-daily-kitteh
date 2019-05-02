@@ -9,4 +9,68 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #d7f2f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.the-daily-kitteh {
+  color: #223242;
+  font-family: 'Source Serif Pro', serif;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: 30px;
+  padding: 2% 0% 0% 0%;
+  font-size: 3rem;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  border: #56bcce solid 4px;
+  background-color: #56bcce;
+  color: white;
+  text-decoration: underline;
+  padding: 0% 20% 0% 20%;
+}
+.kotd {
+  border: solid #56bcce 2px;
+  color: #223242;
+  padding: 5px;
+}
+.divide {
+  display: flex;
+  flex-direction: row;
+}
+.divide > section {
+  margin: 2%;
+}
+h2 {
+  display: flex;
+  margin: 15px;
+  color: #223242;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-end;
+  list-style: none;
+  border: #dbd1cb solid 4px;
+  background-color: #dbd1cb;
+  margin: 0;
+  padding: 1% 30% 1% 30%;
+  text-decoration: underline;
+}
+img {
+  height: 250px;
+  width: auto;
+  margin: 20;
 }
